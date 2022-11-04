@@ -1,8 +1,49 @@
 <mjml>
     <mj-head>
         <mj-title></mj-title>
+
+        <mj-attributes>
+            /* GLOBAL SECTION STYLES */
+            <mj-section background-color="#fff" padding="0"></mj-section>
+            <mj-column padding="0" width="95%"></mj-column>
+            <mj-text color="#ddd"></mj-text>
+
+            /* MJ-CLASS STYLES */
+            <mj-class name="background-color" background-color="#f1f1f1" />
+            <mj-class name="table-color" background-color="#ffffff"/>
+            <mj-class name="navlink-color" color="#0f0" text-decoration="underline"/>
+
+            /* CSS STYLES */
+            <mj-style>
+                @media screen and (max-width: 498.98px) {
+
+                }
+            </mj-style>
+        </mj-attributes>
     </mj-head>
-    <mj-body>
-        
+
+    <mj-body mj-class="background-color">
+        /* NAVBAR SECTION */
+        <mj-section padding="30px 0px 0px 0px">
+            <mj-group width="90%">
+                <mj-column width="50%">
+                    <mj-image src="./images/feather.png" alt="feather" title="feather" width="32px" height="32px" width="50%" border="0" align="left"/>
+                </mj-column>
+
+                <mj-column width="50%">
+                    <mj-navbar align="right">
+                        <mj-navbar-link mj-class="navlink-color" href="#" target="_blank">
+                            Disclosures             
+                        </mj-navbar-link>
+                    </mj-navbar>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        /* DOGE IMAGE SECTION */
+
+        /* PARAGRAPH SECTION ONE */
+
+        /*  */
     </mj-body>
 </mjml>
