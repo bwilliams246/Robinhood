@@ -64,7 +64,7 @@
 
                 <mj-column width="50%" css-class="mobile-two-columns">
                     <mj-navbar align="right">
-                        <mj-navbar-link mj-class="navlink-color" href="#" target="_blank">
+                        <mj-navbar-link mj-class="navlink-color" href="https://cdn.robinhood.com/assets/robinhood/legal/Robinhood%20Snacks%20Disclosure.pdf" target="_blank">
                             Disclosures             
                         </mj-navbar-link>
                     </mj-navbar>
@@ -78,7 +78,10 @@
                 <mj-image
                      src="./images/robinhood-logo.png"
                      alt="Robinhood"
-                     title="Robinhood" />
+                     title="Robinhood"
+                     href="https://snacks.robinhood.com/"
+                     target="_blank"
+                     border="0" />
             </mj-column>
         </mj-section>
 
@@ -155,10 +158,10 @@
 
                 <mj-text padding="8px 0px 0px 0px" mj-class="paragraph-font">
                     Another Halloween, another year for 
-                    <a href="#" target="_blank" style="text-decoration: none; color: #0f0; text-decoration: underline;">knockoff costumes</a>.
+                    <a href="https://www.buzzfeed.com/hannahdobro/hilarious-knock-off-halloween-costumes" target="_blank" style="text-decoration: none; color: #0f0; text-decoration: underline;">knockoff costumes</a>.
                     A few of our favorites: "Ten" from the hit show "Unusual Events." "Evil Midweek Cutie" (definitely 
                     no relation to Wednesday Addams). "Fantastic Magician Boy" (who could it be?). Also a classic 
-                    "<a href="#" target="_blank" style="text-decoration: none; color: #0f0; text-decoration: underline;">the rice is strange</a>"
+                    "<a href="https://www.reddit.com/r/crappyoffbrands/comments/7w19up/the_rice_is_strange/" target="_blank" style="text-decoration: none; color: #0f0; text-decoration: underline;">the rice is strange</a>"
                 </mj-text>
 
                 <mj-text padding="15px 0px 0px 0px" mj-class="paragraph-font">
@@ -175,7 +178,7 @@
                 <mj-text padding="15px 0px 0px 0px" mj-class="paragraph-font">
                     <span style="font-weight: bold;">Btw...</span> Do you want to start getting Snacks daily? 
                     Or prefer to unsubscribe? Manage your subscription preferences 
-                    <a href="#" target="_blank" style="text-decoration: none; color: #0f0; text-decoration: underline;">here.</a>
+                    <a href="https://snacks.robinhood.com/subscriptions/manage/?token_1=76341035-4607-47fc-ac91-f9abef0b36c5&token_2=" target="_blank" style="text-decoration: none; color: #0f0; text-decoration: underline;">here.</a>
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -209,26 +212,26 @@
             <mj-group width="95%">
                 <mj-column >
                     <mj-text align="left">
-                        🐻 <a href="#" target="_blank" style="font-size: 15px; text-decoration: none; color: #0f0; text-decoration: underline;">Amazon's bearish forecast</a>
+                        🐻 <a href="https://snacks.robinhood.com/newsletters/540cTuIpTqabq5PMret6Zx/" target="_blank" style="font-size: 15px; text-decoration: none; color: #0f0; text-decoration: underline;">Amazon's bearish forecast</a>
                         <span style="font-size: 2rem;">.</span> Oct 28, 2022
                     </mj-text>
                 </mj-column>
                 <mj-column >
                     <mj-text align="left">
-                        👀 <a href="#" target="_blank" style="font-size: 15px; text-decoration: none; color: #0f0; text-decoration: underline;">Mobileye-opener</a>
+                        👀 <a href="https://snacks.robinhood.com/newsletters/7s7ZO6z08ZcCbuzoM95JPx/" target="_blank" style="font-size: 15px; text-decoration: none; color: #0f0; text-decoration: underline;">Mobileye-opener</a>
                         <span style="font-size: 2rem;">.</span> Oct 27, 2022
                     </mj-text>
                 </mj-column>
                 <mj-column padding="0px 0px 30px 0px">
                     <mj-text align="left">
-                        👟 <a href="#" target="_blank" style="font-size: 15px; text-decoration: none; color: #0f0; text-decoration: underline;">Kanye's Fashion Fallout</a>
+                        👟 <a href="https://snacks.robinhood.com/newsletters/419JPU4iKFubhqsgTFUD7I/" target="_blank" style="font-size: 15px; text-decoration: none; color: #0f0; text-decoration: underline;">Kanye's Fashion Fallout</a>
                         <span style="font-size: 2rem;">.</span> Oct 26, 2022
                     </mj-text>
                 </mj-column>
             </mj-group>
 
             <mj-column width="100%">
-                <mj-button padding="20px 15px" href="#" target="_blank" border-radius="12px" font-size="16px" align="left">
+                <mj-button padding="20px 15px" href="https://snacks.robinhood.com/subscriptions/manage/?token_1=76341035-4607-47fc-ac91-f9abef0b36c5&token_2=&subscribe-daily=1" target="_blank" border-radius="12px" font-size="16px" align="left">
                     Subscribe to The Daily
                 </mj-button>
             </mj-column>
@@ -238,17 +241,17 @@
         <mj-section>
             <mj-group width="30%" css-class="mobile-width-30-per">
                 <mj-column width="50%" css-class="mobile-two-columns" padding="40px 0px">
-                    <mj-image src="./images/insta.png" alt="Instagram" title="Instagram" href="#" target="_blank" width="40px" height="40px" border="0" />
+                    <mj-image src="./images/insta.png" alt="Instagram" title="Instagram" href="https://www.instagram.com/robinhoodsnacks/" target="_blank" width="40px" height="40px" border="0" />
                 </mj-column>
                 <mj-column width="50%" css-class="mobile-two-columns" padding="40px 0px">
-                    <mj-image src="./images/twitter.png" alt="Twitter" title="Twitter" href="#" target="_blank" width="40px" height="40px" border="0" />
+                    <mj-image src="./images/twitter.png" alt="Twitter" title="Twitter" href="https://twitter.com/RobinhoodSnacks" target="_blank" width="40px" height="40px" border="0" />
                 </mj-column>
             </mj-group>
 
             <mj-column>
                 <mj-text mj-class="paragraph-font" font-size="9px" color="gray">
                     Robinhood Snacks newsletters reflect the opinions of only the authors who are associated persons of 
-                    Robinhood Financial LLC (Member <a href="#" target="_blank" style="font-size: 9px; text-decoration: none; color: #0f0; text-decoration: underline;">SIPC</a>) 
+                    Robinhood Financial LLC (Member <a href="https://www.sipc.org/" target="_blank" style="font-size: 9px; text-decoration: none; color: #0f0; text-decoration: underline;">SIPC</a>) 
                     and do not reflect the views of Robinhood Markets, Inc. or any of its subsidiaries or affiliates. 
                     They are for informational purposes only, and are not a 
                     recommendation of an investment strategy or to buy or sell any security, digital asset (cryptocurrency, etc) 
@@ -261,23 +264,23 @@
 
             <mj-column padding="20px 0px">
                 <mj-text>
-                    <a href="#" target="_blank" style="font-size: 9px; text-decoration: none; color: #0f0; text-decoration: underline;">Robinhood Terms and Conditions</a> . 
-                    <a href="#" target="_blank" style="font-size: 9px; text-decoration: none; color: #0f0; text-decoration: underline;">Disclosure Library</a> . 
-                    <a href="#" target="_blank" style="font-size: 9px; text-decoration: none; color: #0f0; text-decoration: underline;">Our Editorial Principles</a> . 
-                    <a href="#" target="_blank" style="font-size: 9px; text-decoration: none; color: #0f0; text-decoration: underline;">Contact Us</a> . 
-                    <a href="#" target="_blank" style="font-size: 9px; text-decoration: none; color: #0f0; text-decoration: underline;">FAQ</a> 
+                    <a href="https://cdn.robinhood.com/assets/robinhood/legal/Robinhood%20Terms%20and%20Conditions.pdf" target="_blank" style="font-size: 9px; text-decoration: none; color: #0f0; text-decoration: underline;">Robinhood Terms and Conditions</a> . 
+                    <a href="https://cdn.robinhood.com/assets/robinhood/legal/Robinhood%20Snacks%20Disclosure.pdf" target="_blank" style="font-size: 9px; text-decoration: none; color: #0f0; text-decoration: underline;">Disclosure Library</a> . 
+                    <a href="https://robinhood.com/us/en/support/articles/our-editorial-principles/" target="_blank" style="font-size: 9px; text-decoration: none; color: #0f0; text-decoration: underline;">Our Editorial Principles</a> . 
+                    <a href="https://robinhood.com/contact" target="_blank" style="font-size: 9px; text-decoration: none; color: #0f0; text-decoration: underline;">Contact Us</a> . 
+                    <a href="https://robinhood.com/us/en/support/" target="_blank" style="font-size: 9px; text-decoration: none; color: #0f0; text-decoration: underline;">FAQ</a> 
                 </mj-text>
             </mj-column>
 
             <mj-column padding="0px 0px 40px 0px">
                 <mj-text>
-                    <a href="#" target="_blank" style="font-size: 9px; text-decoration: none; color: #0f0; text-decoration: underline;">Manage Your Subscription Preferences</a>
+                    <a href="https://snacks.robinhood.com/subscriptions/manage/?token_1=76341035-4607-47fc-ac91-f9abef0b36c5&token_2=" target="_blank" style="font-size: 9px; text-decoration: none; color: #0f0; text-decoration: underline;">Manage Your Subscription Preferences</a>
                 </mj-text>
             </mj-column>
 
             <mj-column padding="0px 0px 40px 0px">
                 <mj-text color="gray">
-                    To unsubscribe from all commercial emails, click <a href="#" target="_blank" style="font-size: 15px; text-decoration: none; color: #0f0; text-decoration: underline;">here</a>
+                    To unsubscribe from all commercial emails, click <a href="https://sg.robinhood.com/wf/unsubscribe?upn=NtROlBvieUwySS8gl2JmkFa5POATeaJ-2Bl1bU-2FqvUwISANEqp9Cvan5L094IhfUuzIaZk6-2FFMiU36Iibo7n-2Bp1BdUIzXqCDY0vl2IyDU4M1jcumzuMmLDqXGAgqRvFV8abGyVRSZXFwBvQbxqOjdAuAsRGf-2FzjBS7p9YtmDM0FHXSQTA-2BoDgI2bh89bBcB1TEUY7NMx9TrijaWm1VfZnr7-2FyNGLXz2WOblmMzjG6zzDw3WCO84Hy5efKvsPAzjdkh61hMTEwt7TEuk1WjiW9rM8-2BSIZoBzRJIpI-2F-2FEVrpT1Bf3sqiHl15cLc4RtMLol6K68EjqyBQP5EL5IP6EvEsiXcvz2RPEosmARKe1DC3vy3xlRLSugHNTTTtCWZDINl5sy-2Fu6UAO38XQdhsxLlT4AW-2BhOY2BXGiIkOSyTs5CyTt-2FUDWxG2QmyW4RFlgiJ7H6JGbWiofEdDFSGZCMn1b4pMn7s1M-2FZxFqYcc1TMSgo3TOxWKvr51DnkXS41ST8hpILZKaSYcz39GYe73rQdW0iSITCmFQd1dgNgdWYOvkOqmaTRv4-2Feg2ARXsdP1lhZHKBGV-2F4VHJmGkRlcAMbM7kXCvUBFBraH7CER5RDKCy8iLg4DCSdrQDTD6iO9PG-2FfqU6cZqPxcQb0HOMgkPCv964UXRyfkdfAU6-2BcgzGqyCHmw-3D" target="_blank" style="font-size: 15px; text-decoration: none; color: #0f0; text-decoration: underline;">here</a>
                 </mj-text>
             </mj-column>
         </mj-section>
