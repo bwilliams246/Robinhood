@@ -5,7 +5,7 @@
         <mj-attributes>
             /* GLOBAL SECTION STYLES */
             <mj-section background-color="#fff" padding="0"></mj-section>
-            <mj-column padding="0" width="95%"></mj-column>
+            <mj-column padding="0" width="95%" css-class="mobile-inner-table-width"></mj-column>
             <mj-text padding="0px" color="#000"></mj-text>
             <mj-button background-color="#000" color="#fff"></mj-button>
             <mj-image padding="0px" />
@@ -18,25 +18,51 @@
             <mj-class name="paragraph-font" line-height="1.5rem" font-size="14px" align="left" />
 
             <mj-class name="4-column-width" width="25%" />
-
-            /* CSS STYLES */
-            <mj-style>
-                @media screen and (max-width: 498.98px) {
-
-                }
-            </mj-style>
         </mj-attributes>
+
+        /* CSS STYLES */
+        <mj-style>
+            @media screen and (max-width: 479.98px) {
+                .mobile-inner-table-width {
+                    width: 95% !important;
+                }
+
+                .mobile-navbar-width {
+                    width: 90% !important;
+                }
+
+                .mobile-two-columns {
+                    width: 50% !important;
+                }
+
+                .mobile-width-93-per {
+                    width: 93% !important;   
+                }
+
+                .mobile-width-75-per {
+                    width: 75% !important;
+                }
+
+                .mobile-width-30-per {
+                    width: 30% !important;
+                }
+
+                .mobile-width-7-per {
+                    width: 7% !important;   
+                }
+            }
+        </mj-style>
     </mj-head>
 
     <mj-body mj-class="background-color">
         /* NAVBAR SECTION */
         <mj-section padding="30px 0px 0px 0px">
-            <mj-group width="90%">
-                <mj-column width="50%">
+            <mj-group width="90%" css-class="mobile-navbar-width">
+                <mj-column width="50%" css-class="mobile-two-columns">
                     <mj-image src="./images/feather.png" alt="feather" title="feather" width="32px" height="32px" width="50%" border="0" align="left"/>
                 </mj-column>
 
-                <mj-column width="50%">
+                <mj-column width="50%" css-class="mobile-two-columns">
                     <mj-navbar align="right">
                         <mj-navbar-link mj-class="navlink-color" href="#" target="_blank">
                             Disclosures             
@@ -81,8 +107,8 @@
                 </mj-text>    
             </mj-column>
 
-            <mj-group width="95%">
-                <mj-column mj-class="4-column-width">
+            <mj-group width="95%" css-class="mobile-width-75-per">
+                <mj-column mj-class="4-column-width" css-class="mobile-two-columns">
                     <mj-text padding="0px 0px 10px 0px">
                         Dow Jones
                     </mj-text>
@@ -91,7 +117,7 @@
                     </mj-text>
                 </mj-column>
 
-                <mj-column mj-class="4-column-width">
+                <mj-column mj-class="4-column-width" css-class="mobile-two-columns">
                     <mj-text padding="0px 0px 10px 0px">
                         S&P 500
                     </mj-text>
@@ -100,7 +126,7 @@
                     </mj-text>
                 </mj-column>
 
-                <mj-column mj-class="4-column-width">
+                <mj-column mj-class="4-column-width" css-class="mobile-two-columns">
                     <mj-text padding="0px 0px 10px 0px">
                         Nasdaq
                     </mj-text>
@@ -109,7 +135,7 @@
                     </mj-text>
                 </mj-column>
 
-                <mj-column mj-class="4-column-width">
+                <mj-column mj-class="4-column-width" css-class="mobile-two-columns">
                     <mj-text padding="0px 0px 10px 0px">
                         Bitcoin
                     </mj-text>
@@ -162,12 +188,12 @@
                 </mj-text>
             </mj-column>
 
-            <mj-group width="95%">
-                <mj-column width="7%" padding="10px 0px 0px 0px">
+            <mj-group width="95%" css-class="mobile-inner-table-width">
+                <mj-column width="7%" padding="10px 0px 0px 0px" css-class="mobile-width-7-per">
                     <mj-image src="./images/book.png" alt="Newsletter" title="Newsletter" width="24px" title="24px"  border="0" align="left" />
                 </mj-column>
 
-                <mj-column width="93%">
+                <mj-column width="93%" css-class="mobile-width-93-per">
                     <mj-text align="left">
                         <h3>The Daily Newsletter</h3>
                     </mj-text>
@@ -210,11 +236,11 @@
 
         /* FOOTER SECTION */
         <mj-section>
-            <mj-group width="30%">
-                <mj-column width="50%" padding="40px 0px">
+            <mj-group width="30%" css-class="mobile-width-30-per">
+                <mj-column width="50%" css-class="mobile-two-columns" padding="40px 0px">
                     <mj-image src="./images/insta.png" alt="Instagram" title="Instagram" href="#" target="_blank" width="40px" height="40px" border="0" />
                 </mj-column>
-                <mj-column width="50%" padding="40px 0px">
+                <mj-column width="50%" css-class="mobile-two-columns" padding="40px 0px">
                     <mj-image src="./images/twitter.png" alt="Twitter" title="Twitter" href="#" target="_blank" width="40px" height="40px" border="0" />
                 </mj-column>
             </mj-group>
